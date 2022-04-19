@@ -1,0 +1,14 @@
+database_name: A Postgres database
+sqlalchemy_uri: {{ functions.databases.get_sqlalchemy_uri(instance) }}
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: true
+allow_cvas: true
+allow_file_upload: true
+extra:
+  engine_params: {}
+  metadata_params: {}
+  schemas_allowed_for_file_upload: []
+uuid: 7737158f-bce3-4350-a2dc-85ca6a2998a0
+version: 1.0.0
